@@ -1,9 +1,11 @@
-import { Router } from "./router";
+import React from "react";
+import AppRoute from "./Router/router";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <Router />
+      <AppRoute />
     </>
   );
 }
