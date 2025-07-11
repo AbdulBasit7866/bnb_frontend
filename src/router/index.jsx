@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import { SignIn } from "../pages/signin";
-import { DefaultMessage } from "../components";
+import Signup from "../pages/SignUp";
+import Login from "../pages/SignIn";
 
 export const Router = () => {
   return (
     <Routes>
-      <Route path="/" element={<DefaultMessage message={"My message"} />} />
-      <Route path="/signin" element={<SignIn />} />
+      <Route path="/" element={<Login/>} />
+       <Route path="/signup" element={<Signup/>} />
     </Routes>
   );
 };
